@@ -6,10 +6,10 @@ public class ConvertCeltoFah
 	public static void main(String[] args)
 	{
 		Scanner input = new Scanner(System.in);
-		System.out.print("Enter the temperature in Celsius: ");
+		System.out.print("Enter the temperature in Fahrenheit: ");
 		double fahrenheit;
 		fahrenheit = input.nextDouble();
-		double celsius = ( (5 / 9) * (fahrenheit - 32);
-		System.out.println("The temperature in Fahrenheit is " + fahrenheit);	
+		double fahrenheit = ( (5 / 9) * (celsius - 32);
+		System.out.println("The temperature in Celsius is " + celsius);	
 	}
 }
